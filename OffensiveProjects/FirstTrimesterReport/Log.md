@@ -19,8 +19,14 @@ To do this I needed to gather my data from two sources, from PFF(Pro Football Fo
 
   For the purposes of this project, we will show a relatively basic filtering process in order to access offensive data.
 
-  To access data for Charlotte Football and only Charlotte Football, keep "League" set to "NCAA". Then for "Season/Weeks" filter to the specific season you are working in and select the weeks you need to         include.     An example of the first trimester of the 2023 season is shown below.
+  To access data for Charlotte Football and only Charlotte Football, keep "League" set to "NCAA". Then for "Season/Weeks" filter to the specific season you are working in and select the weeks you need to include.     An example of the first trimester of the 2023 season is shown below.
   ![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/52cc80c8-30c6-424b-9fdc-488c29b959ab)
+
+  After filtering the timeframe of the data you are looking for you need to pick what team we are focusing on. We look for Charlotte as an example, but you can find any team by selecting either the "Offense",   "Defense", or "Entire Team" filter based on your needs.
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/502a522b-c990-43f0-b992-eb373b0aa410)
+
+From here you can select the games you want from your filtered search under the "Games" filter. Once you close the filter you will see reports that include data filtered to your specific requests and you are welcome to delve as deep as you want into these for the reports you create from what is available!
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/85246483-6137-4c70-8c2c-edc6da4ec37c)
 
 
 
