@@ -38,4 +38,10 @@ Clicking on the "# plays" button lets you view videos of the plays from the game
 
 (SUB) GATHERING DATA FROM CATAPULT: [CLASSIFIED UNTIL FURTHER NOTICE]
 
+(SUB) CLEANING THE DATA:
+
 Once the data was gathered came the challenge of cleaning the data...
+
+The goal here is to be able to join the two datasets of play data on the same play to maximize the amount of information available for each play.
+To do so, we must do a bit of coding... first, we must read in the .csv data from our two sources to be able to clean them.
+Don't forget to import the associated packages needed to manipulate the data we are using.
