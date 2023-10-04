@@ -33,6 +33,7 @@ If you want to save your filter to come back to later just click on the "Save" b
 ![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/12be3784-12ea-45fb-8c18-757c1e1c5c8f)
 
 Clicking on the "# plays" button lets you view videos of the plays from the games you have filtered. I recommend using the "Quick Video" option to view plays as it is quick and easy. To actually download play data click on the "Play Feed CSV" option to directly download a .csv file of your filtered data to your system.
+
 ![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/eaa06af9-547d-4b9c-bdef-81e916ebf1cd)
 
 
