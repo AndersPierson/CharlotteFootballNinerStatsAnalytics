@@ -28,6 +28,13 @@ To do this I needed to gather my data from two sources, from PFF(Pro Football Fo
 From here you can select the games you want from your filtered search under the "Games" filter. Once you close the filter you will see reports that include data filtered to your specific requests and you are welcome to delve as deep as you want into these for the reports you create from what is available!
 ![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/85246483-6137-4c70-8c2c-edc6da4ec37c)
 
+To be more specific, if you want to view raw data and/or video, look at the top right corner of the page just below your account menu. You will see three buttons titled "Save", "Share" and "# plays".
+If you want to save your filter to come back to later just click on the "Save" button. This will be saved under the "Collections" menu which is right next to your account menu. The save option will let you name your filter as well as make any additional notes and share the filter with other PFF Ultimate Users.
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/12be3784-12ea-45fb-8c18-757c1e1c5c8f)
+
+Clicking on the "# plays" button lets you view videos of the plays from the games you have filtered. I recommend using the "Quick Video" option to view plays as it is quick and easy. To actually download play data click on the "Play Feed CSV" option to directly download a .csv file of your filtered data to your system.
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/99e0882d-f3a5-4e16-b56e-0523535b4fdb)
+
 
 
 Once the data was gathered came the challenge of cleaning the data...
