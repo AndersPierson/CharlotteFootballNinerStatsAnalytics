@@ -46,8 +46,9 @@ The goal here is to be able to join the two datasets of play data on the same pl
 To do so, we must do a bit of coding... first, we must read in the .csv data from our two sources to be able to clean them.
 Don't forget to import the associated packages needed to manipulate the data we are using.
 
-Further documentation and all of the code can be found here:
+Further documentation and all of the code for the project can be found here:
 https://app.hex.tech/85371e2a-dc5e-44c9-8028-8d17b3d18e74/hex/5312ec4a-760f-4f44-b83c-3e70825288f2/draft/logic
 
 This link above will take you to the Hex Software Engine which I have had been made available to me by my 5122 - Visual Analytics Professor Chase Romano.
-Here you can view the full script of data cleaning and all of the comments associated with it.
+Here you can view the full script of data cleaning and all of the comments associated with it. You'll see the end of the data cleaning process denoted by a
+text box saying "***END OF DATA CLEANING PROCESS***"
