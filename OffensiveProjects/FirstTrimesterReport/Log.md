@@ -54,3 +54,26 @@ Here you can view the full script of data cleaning and all of the comments assoc
 text box saying "***END OF DATA CLEANING PROCESS***"
 
 After the data has been cleaned and queried by the code I wrote... there is unfortunately one last process needed to truly clean the data. This is a rudimentary process that involves combing through the data to find duplicate joins between our two datasets.
+
+Now while the SQL query I wrote was accurate in joining the two datasets, it was by no means perfect. There were still duplicate joins from the PFF data that ended up in the final query database. Now it is possible to go further in the query by possibly joining the datasets on the additional joint column of gain of yards on a play. However, until someone manages to fix the inevitable occurrence of human error, this would do more harm than good as just missing the appropriate gain by a single yard in data entry can render valuable data missing from the dataset we use to do our analysis. The only foolproof way to go about making sure our data is as accurate as possible after executing the query is by downloading and cleaning the resultant .csv file by hand.
+
+Once we have downloaded and opened the .csv file from the query, we can go in and identify the duplicate rows and get rid of them by deletion.
+I chose to highlight the columns "Gain" from the Catapult data and "pff_GAINLOSS" from the PFF data as well as "pff_DISTANCE" as these make it much easier to identify which duplicate values are wrong. YOu are able to discern which is wrong as the gain from the PFF data with not match with the gain from Catapult. If the gain for a row is off by one or two from PFF when cleaning, just treat it as the same play as this attributes to the human error I have already mentioned. Here is an example in case you guys are a bit confused by my explanation.
+
+Catapult data side of the table:
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/92a29e8a-1064-4759-93d7-88788fde2269)
+
+PFF data side of the table (with the join match pair of dates included):
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/276c20a0-1021-4a7e-a53c-57536fdd207d)
+
+Once you go through this process and clean the data manually you are left with rows that should look like this:
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/81e6cc82-edd9-4be7-90b6-3d4627ceb203)
+Everything that is highlighted had duplicate entries and has since been cleaned. As you can see, the number for the play sequence now flows quite nicely and looks good!
+
+Once the manual cleaning was finished it looks good to go with analysis! However, as a word of warning, do look over the whole table before you go forward as PFF can have gaps in the data for some games that you'll need to be aware of before any subsequent analysis begins.
+
+Below is an example of such an occurrence. On either side of the joined date columns, denoted by ####### for some reason I don't know why, we can see catapult and PFF data for the Charlotte vs. Georgia State game. But it seems that while there is continuous data on the catapult side, there is no data from PFF to accompany it! The reason as to why always requires further thought and investigation. Upon investigation, the data that is available on PFF for this game is HEAVILY flawed. With some drives outright not being there and instead having plays not worth anything to the offense, such as special teams plays.
+
+![image](https://github.com/AndersPierson/CharlotteFootballNinerStatsAnalytics/assets/77944969/eecf16dd-7619-46bf-aeb7-db3b90b1d9df)
+
+To work around this we will most likely be using only catapult data for anything involving the Georgia State game as trying to use PFF data just destroys any hope of valuable analytics.
